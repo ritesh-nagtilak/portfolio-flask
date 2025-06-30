@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block content %}
+<section class="container pt-3 pb-5">
+  <h1 class="display-6 text-center mb-4">About Me</h1>
+  <div class="row">
+    <div class="col-md-4 mb-3">
+      <div class="about-card p-4 h-100">
+        <h4>👋 Hello!</h4>
+        <p>I'm <strong>Ritesh Nagtilak</strong>, a passionate Python developer building full-stack apps with Flask, MySQL, HTML/CSS, and JavaScript.</p>
+        <p>Currently focused on personal projects, cloud computing, and SaaS architecture.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="about-card p-4 h-100">
+        <h4>⚙️ Skills & Tools</h4>
+        <ul>
+          <li><strong>Languages:</strong> Python, HTML, CSS, JavaScript</li>
+          <li><strong>Frameworks:</strong> Flask, Bootstrap</li>
+          <li><strong>Databases:</strong> MySQL, SQLite</li>
+          <li><strong>Tools:</strong> Git, GitHub, Docker (learning)</li>
+          <li><strong>OS:</strong> Windows, Linux (Ubuntu)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="about-card p-4 h-100">
+        <h4>🎓 Education & Certifications</h4>
+        <ul>
+          <li>Bachelor’s in Computer Science (in progress)</li>
+          <li>Microsoft Certified: Azure Fundamentals</li>
+          <li>AI Fundamentals – IBM</li>
+          <li>Generative AI – IBM</li>
+          <li>2025 Python Bootcamp – Udemy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-4">
+    <a href="{{ url_for('static', filename='resume/Ritesh_Nagtilak_Resume.pdf') }}" class="btn btn-primary" target="_blank">📄 View Resume</a>
+  </div>
+</section>
+{% endblock %}

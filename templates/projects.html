@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Projects{% endblock %}
+{% block content %}
+<h1 class="display-6 text-center mb-4">Projects</h1>
+<div class="row">
+  {% for project in projects %}
+  <div class="col-md-4 mb-4">
+    <div class="card h-100 shadow">
+      <div class="card-body">
+        <h5 class="card-title">{{ project.title }}</h5>
+        <p class="card-text">{{ project.desc }}</p>
+        <a href="{{ project.link }}" class="btn btn-primary" target="_blank">View Project</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
