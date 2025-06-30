@@ -1,4 +1,2 @@
 .env
-# Prevent local-only files from being tracked
-static/resume/Ritesh_Nagtilak_Resume.pdf
-static/images/profile.jpg
+
