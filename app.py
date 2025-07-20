@@ -20,7 +20,7 @@ mail = Mail(app)
 projects = [
     {'title': '📝 To-Do App', 'desc': 'A Flask app to manage daily tasks (To-Do App)', 'link': 'https://github.com/ritesh-nagtilak/todo-app'},
     {'title': '📰 Blog Website', 'desc': 'A personal blog site built with Python and Flask', 'link': 'https://github.com/ritesh-nagtilak/blog'},
-    {'title': '🌐 Portfolio Site', 'desc': 'A personal portfolio site using Flask and Bootstrap', 'link': 'https://github.com/ritesh-nagtilak/portfolio'},
+    {'title': '🌐 Portfolio Site', 'desc': 'A personal portfolio site using Flask and Bootstrap', 'link': 'https://ritesh-nagtilak-portfolio.onrender.com'},
     {'title': '🌦️ Weather App', 'desc': 'Weather forecast app using Flask and OpenWeatherMap API', 'link': 'https://github.com/ritesh-nagtilak/weather-app'},
     {'title': '💬 Chat Application', 'desc': 'A real-time chat app using Flask and Socket.IO', 'link': 'https://github.com/ritesh-nagtilak/chat-app'},
     {'title': '🔗 URL Shortener', 'desc': 'A simple URL shortening service with Flask and SQLite', 'link': 'https://github.com/ritesh-nagtilak/url-shortener'},
